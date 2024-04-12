@@ -17,7 +17,7 @@
       color: aliceblue;
     }
     .attribution a { 
-      color: hsl(228, 45%, 44%); 
+      color: var(--Orange); 
     }
   </style>
 </head>
@@ -43,9 +43,10 @@
       </div>
     
       <div class="late">
-        <p>You selected  out of 5</p>
-        <p>Thank you!</p>
-        <p>
+        <img width="162" height="108" src="/images/illustration-thank-you.svg" alt="">
+        <p class="title">You selected &nbsp;<span id="number"></span>&nbsp;out of 5</p>
+        <p class="u-title">Thank you!</p>
+        <p class="text">
           We appreciate you taking the time to give a rating. If you ever need more support,
           don’t hesitate to get in touch!
         </p>
@@ -59,7 +60,7 @@
 <footer>
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="github.com/cristiano-miguel-dcodemaster">DCode Master</a>.
     </div>
 </footer>
 </body>

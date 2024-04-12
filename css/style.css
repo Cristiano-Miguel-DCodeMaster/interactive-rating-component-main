@@ -35,7 +35,7 @@ section{
 .rate{
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 10px;
 }
 .first img{
     background-color: var(--LightGrey2);
@@ -51,9 +51,29 @@ h2{
 }
 h3,h4,h5,h6,.five{
     font-size: 18px;
-    background-color: var(--MediumGrey);
-    border-radius: 50%;
+    background-color: var(--LightGrey2);
     padding: 10px;
+    color: var(--LightGrey);
+    cursor: pointer;
+}
+h6:hover{
+    background-color: var(--LightGrey);
+    color: var(--White);
+}
+.five:hover{
+    background-color: var(--Orange);
+    color: var(--White);
+}
+.first button{
+    width: 100%;
+    background-color: var(--Orange);
+    color: var(--White);
+    font-weight: 600;
+    border: none;
+}
+.first button:hover{
+    background-color: var(--White);
+    color: var(--Orange);
 }
 .late{
     display: none;
@@ -62,25 +82,71 @@ h3,h4,h5,h6,.five{
 section{
     padding: 20px;
     border-radius: 14px;
-    width: 60%;
+    width: 80%;
+}
+.first{
+    display: none;
 }
 .first img{
-width: 3%;
+width: 6%;
 padding: 10px;
 }
 h1{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 24px ;
 }
 h2{
-    font-size: 18px;
+    font-size: 12px;
     padding-bottom: 20px;
 }
+.rate{
+    gap: 15px;
+    position: relative;
+    padding-bottom: 15px;
+}
 h3,h4,h5,h6,.five{
-    font-size: 18px;
-    background-color: var(--MediumGrey);
     border-radius: 50%;
+    padding: 8px;
+    width: 9%;
+    text-align: center;
+    font-weight: 500;
+}
+.first button{
     padding: 10px;
+    border-radius: 100vmax;
+}
+.late{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.late img{
+width: 55%;
+height: 90px;
+padding-bottom: 20px;
+}
+.title{
+    color: var(--Orange);
+    background-color: var(--LightGrey2);
+    border-radius: 100vmax;
+    padding: 3px;
+    width: 70%;
+    text-align: center;
+}
+.u-title{
+    padding-top: 20px;
+    font-size: 24px;
+    padding-bottom: 10px;
+    color: var(--White);
+    font-weight:600;
+}
+.text{
+    text-align: center;
+    color: var(--LightGrey);
+    font-size: 12px;
 }
 }
