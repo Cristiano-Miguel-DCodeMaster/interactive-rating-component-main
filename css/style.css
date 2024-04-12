@@ -55,6 +55,11 @@ h3,h4,h5,h6,.five{
     padding: 10px;
     color: var(--LightGrey);
     cursor: pointer;
+    width: 10%;
+}
+h3:hover,h4:hover,h5:hover{
+    background-color: hsla(217, 12%, 63%, 0.719);
+    color: var(--White);
 }
 h6:hover{
     background-color: var(--LightGrey);
@@ -74,6 +79,7 @@ h6:hover{
 .first button:hover{
     background-color: var(--White);
     color: var(--Orange);
+    cursor: pointer;
 }
 .lateoff{
     display: none;
@@ -105,7 +111,6 @@ h2{
 h3,h4,h5,h6,.five{
     border-radius: 50%;
     padding: 8px;
-    width: 9%;
     text-align: center;
     font-weight: 500;
 }
@@ -124,7 +129,6 @@ h3,h4,h5,h6,.five{
 .late img{
 width: 55%;
 height: 90px;
-padding-bottom: 20px;
 }
 .title{
     color: var(--Orange);
@@ -133,6 +137,8 @@ padding-bottom: 20px;
     padding: 3px;
     width: 70%;
     text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
 }
 .u-title{
     padding-top: 20px;
@@ -146,4 +152,124 @@ padding-bottom: 20px;
     color: var(--LightGrey);
     font-size: 12px;
 }
+}
+@media only screen and (min-width:375px){
+    h2{
+        font-size: 14px;
+    }
+    .rate{
+        gap: 20px;
+    }
+    
+.title{
+    font-size: 16px;
+}
+.u-title{
+    font-size: 26px;
+}
+.text{
+    font-size: 14px;
+}
+}
+@media only screen and (min-width:425px){
+    h1{
+        font-size: 29px;
+    }
+    h2{
+        font-size: 16px;
+    }
+    h3,h4,h5,h6,.five{
+        padding: 10px;
+    }
+    .rate{
+        gap: 25px;
+    }
+    .first button{
+        padding: 15px;
+        font-size: 16px;
+    }
+    
+.title{
+    font-size: 18px;
+}
+.u-title{
+    font-size: 28px;
+}
+.text{
+    font-size: 16px;
+}
+}
+@media only screen and (min-width:768px){
+    section{
+        width: 50%;
+    }
+    h1{
+        font-size: 31px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    h3,h4,h5,h6,.five{
+        padding: 12px;
+        height: 25px;
+    }
+    
+.title{
+    font-size: 20px;
+}
+.u-title{
+    font-size: 30px;
+}
+.text{
+    font-size: 18px;
+}
+}
+@media only screen and (min-width:992px){
+    section{
+        width: 40%;
+    }
+    .first img{
+        width: 4%;
+    }
+    h1{
+        font-size: 31px;
+    }
+    h2{
+        font-size: 17px;
+    }
+    h3,h4,h5,h6,.five{
+        padding: 12px;
+        height: 25px;
+    }
+    
+.title{
+    font-size: 20px;
+}
+.u-title{
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.text{
+    font-size: 16.5px;
+    width: 100%;
+}
+}
+@media only screen and (min-width:1024px){
+    .text{
+        font-size: 17.4px;
+    }
+}
+@media only screen and (min-width:1272px) and (min-height:645px){
+    section{
+        width: 33%;
+    }
+    h3,h4,h5,h6,.five{
+        padding: 14px;
+        padding-top: 18px;
+        height: 30px;
+    }
+    .text{
+        font-size: 17.6px;
+    }
 }
