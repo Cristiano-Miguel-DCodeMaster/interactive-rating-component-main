@@ -75,6 +75,8 @@ h6:hover{
     color: var(--White);
     font-weight: 600;
     border: none;
+    text-transform: uppercase;
+    font-family: overpass;
 }
 .first button:hover{
     background-color: var(--White);
@@ -117,6 +119,8 @@ h3,h4,h5,h6,.five{
 .first button{
     padding: 10px;
     border-radius: 100vmax;
+    font-size: 14px;
+    font-weight: 600;
 }
 .lateon{
     display: block;
@@ -273,3 +277,136 @@ height: 90px;
         font-size: 17.6px;
     }
 }
+@media only screen and (min-width:1400px){
+    section{
+        width: 30%;
+        padding: 30px;
+    }
+    h2{
+        font-size: 17px;
+    }
+    h3,h4,h5,h6,.five{
+        padding: 14px;
+        padding-top: 18px;
+        height: 30px;
+    }
+    .text{
+        font-size: 17.6px;
+    }
+}
+@media only screen and (min-width:1440px) and (min-height:800px){
+    section{
+        width: 30%;
+        padding: 30px;
+    }
+    h2{
+        font-size: 17px;
+    }
+    h3,h4,h5,h6,.five{
+        padding: 14px;
+        padding-top: 18px;
+        height: 30px;
+    }
+    .text{
+        font-size: 18px;
+    }
+    }
+    @media only screen and (min-width: 1500px) {
+        h2{
+            font-size: 20px;
+        }
+        .text{
+            font-size: 20px;
+        }
+    }
+    @media only screen and (min-width: 1700px) {
+        h2{
+            font-size: 23px;
+        }
+        .title{
+            font-size: 25px;
+        }
+        .text{
+            font-size: 24px;
+        }
+        h3,h4,h5,h6,.five{
+            font-size: 25px;
+        }
+        .first button{
+            padding: 20px;
+            font-size: 23px;
+        }
+    }
+    @media only screen and (min-width: 1957px) {
+        .first img{
+            width: 6%;
+        }
+        h1{
+            font-size: 40px;
+        }
+        h2{
+            font-size: 27px;
+        }
+        .title{
+            font-size: 29px;
+        }
+        .text{
+            font-size: 26px;
+        }
+        h3,h4,h5,h6,.five{
+            font-size: 25px;
+        }
+        .first button{
+            padding: 20px;
+            font-size: 23px;
+        }
+    }
+    @media only screen and (min-width: 2297px) {
+        h1{
+            font-size: 50px;
+        }
+        h2{
+            font-size: 30px;
+        }
+        .title{
+            font-size: 35px;
+        }
+        .u-title{
+            font-size: 49px;
+        }
+        .text{
+            font-size: 30px;
+        }
+        .lateon img{
+            width: 45%;
+            height: 180px;
+        }
+    }
+    @media only screen and (min-width: 2560px) {
+        section{
+            padding: 50px;
+        }
+        h1{
+            font-size: 60px;
+        }
+        h2{
+            font-size: 33px;
+        }
+        .rate{
+            padding-top: 30px;
+            padding-bottom: 50px;
+        }
+        h3,h4,h5,h6,.five{
+            font-size: 40px;
+            padding: 40px;
+            height: 40px;
+        }
+        .first button{
+            padding: 30px;
+            font-size: 30px;
+        }
+        .text{
+            font-size: 35px;
+        }
+    }
+    
