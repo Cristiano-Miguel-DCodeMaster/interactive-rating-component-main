@@ -32,6 +32,9 @@ section{
 --DarkBlue: hsl(213, 19%, 18%);
 --VeryDarkBlue: hsl(216, 12%, 8%);
 }
+body{
+    background-color: var(--VeryDarkBlue);
+}
 .rate{
     display: flex;
     justify-content: center;
